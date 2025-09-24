@@ -11,7 +11,7 @@ services:
       MYSQL_USER: qa_user
       MYSQL_PASSWORD: qa_password
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - mysql_data:/var/lib/mysql
       - ./logs/mysql:/var/log/mysql
